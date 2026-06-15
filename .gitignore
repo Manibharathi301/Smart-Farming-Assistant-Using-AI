@@ -1,0 +1,41 @@
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ML Models (large files — use Git LFS or share separately)
+model/*.pth
+model/*.pkl
+
+# Generated audio files
+audio_output/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MongoDB local data
+data/db/
